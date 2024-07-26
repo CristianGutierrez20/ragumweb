@@ -1,0 +1,45 @@
+.video-container{
+  padding: 0 0 2rem 0;
+  width: 100%;
+  padding-bottom: 0;
+  background-color: #123e53;
+  border: 5px solid #123e73;
+  border-radius: 10px;
+}
+.player-wrapper {
+  height: 50vh;
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btnVideo{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quizzbtn{
+  display: flex;
+  justify-content: center;
+}
+.video-container .btnVideo .btn, .btn{
+  background-color: #061828;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: aqua;
+  margin: 0;
+}
+  
+.btnVideo .btn:hover{
+  background-color: #061858;
+  color: aquamarine;
+}

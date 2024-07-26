@@ -1,0 +1,52 @@
+
+.source .box__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .source .box__container .box {
+    flex: 1 1;
+    flex-basis: 30%;
+    background: #fff;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+  
+  .source .box__container .box img {
+    height: 8rem;
+  }
+  
+  .source .box__container .box h3 {
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+  }
+  
+  .source .box__container .box p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    padding: 1rem 0;
+    text-align: justify;
+  }
+  
+  .source .box__container .box:hover {
+    transform: scale(1.05);
+    transition: 0.2s linear;
+  }

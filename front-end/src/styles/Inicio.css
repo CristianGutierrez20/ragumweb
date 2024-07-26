@@ -1,0 +1,50 @@
+
+ .inicio h3{
+    font-size: 4rem;
+    font-weight: bold;
+  }  
+  .inicio p{ 
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+
+  .inicio a{
+    display: inline-block;
+    margin-top: .5rem;
+  }
+
+  .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .image img {
+    width: 100%;
+    animation: float 3s linear infinite;
+    border-radius: 20px;
+    -webkit-animation: float 3s linear infinite;
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0rem);
+      -webkit-transform: translateY(0rem);
+      -moz-transform: translateY(0rem);
+      -ms-transform: translateY(0rem);
+      -o-transform: translateY(0rem);
+    }
+    50% {
+      transform: translateY(-3.5rem);
+      -webkit-transform: translateY(-3.5rem);
+      -moz-transform: translateY(-3.5rem);
+      -ms-transform: translateY(-3.5rem);
+      -o-transform: translateY(-3.5rem);
+    }
+  }
+  @media (max-width: 450px) {
+    .inicio p, .inicio a{
+      font-size: 1.5rem;
+    }
+  }
